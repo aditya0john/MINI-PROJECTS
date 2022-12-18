@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SPOTIFY </title> 
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Spotify-Emblem.webp" alt="SPOTIFY LOGO">Spotify</li>
+        </ul>
+    </nav>
+
+    <!-- this is the middle section that contains song names, coves and play button -->
+    <div class="container">
+        <div class="songslist">
+            <h1>All Songs</h1>
+            <div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname" >let me love you</span>
+                    <span>03:40<button class="ic"><img src="play.png" id="1" class="icon"></button></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname" >let me love you</span>
+                    <span>03:40<button class="ic"><img src="play.png" id="2" class="icon"></button></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname" >let me love you</span>
+                    <span>03:40<button class="ic"><img src="play.png" id="3" class="icon"></button></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname" >let me love you</span>
+                    <span>03:40<button class="ic"><img src="play.png" id="4" class="icon"></button></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname" >let me love you</span>
+                    <span>03:40<button class="ic"><img src="play.png" id="5" class="icon"></button></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname" >let me love you</span>
+                    <span>03:40<button class="ic"><img src="play.png" id="6" class="icon"></button></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname" >let me love you</span>
+                    <span>03:40<button class="ic"><img src="play.png" id="7" class="icon"></button></span>
+                </div>
+                <div class="songitem" >
+                    <img alt="1">
+                    <span class="songname" >let me love you</span>
+                    <span>03:40<button class="ic"><img src="play.png" id="8" class="icon"></button></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname">let me love you</span>
+                    <span>03:40<button class="ic"><img src="play.png" id="9" class="icon"></button></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songname">let me love you</span>
+                    <span>03:40<button class="ic"><img src="play.png"  id="10" class="icon"></button></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"><div class="right"><img src="" >
+        </div></div>  
+    </div>
+
+    
+    <!-- this is the bottom bar that contains volume bar, progress bar, play, pause, next and previous buttons -->
+    <div class="bottom">
+        <div><input id="vol-control" type="range" min="0" max="100" step="1" value="100"></input></div>
+        <input type="range" name="range" id="myprogressbar" min="0" max="100" value="0">
+     
+        <div class="icons">
+            <img src="prevoius.png" alt="previous" width="50" id="previous">
+            <img src="play.png" alt="play" width="50" id="playit">
+            <img src="next.png" alt="next" width="50" id="next">
+        </div>
+        
+        <div class="songinfo" >
+           <p id="name"></p>
+        </div>
+    </div>
+
+    <script src="a.js"></script>
+</body>
+</html>

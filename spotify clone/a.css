@@ -1,0 +1,133 @@
+
+body{
+    background-color:bisque;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home{
+    background-color: black;
+    color: white;
+}
+
+.home:hover{
+    opacity: 70%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 70px;
+    background-color: black; 
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+
+}
+
+.brand img{
+    width: 115px;  
+    padding: 5px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.container{
+    min-height: 86vh;
+    background-color: black;
+    color:white;
+    font-family: 'ubuntu', sans-serif;
+    display: flex;
+    padding: 10px;
+    background-image : url('1.jpg'); 
+    background-repeat: no-repeat;
+}
+
+
+.bottom{
+
+    position: sticky;
+    height: 100px;
+    background-color: rgb(254, 192, 121);
+    color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right{
+    position: fixed;
+    height: 300px;
+    width: 300px;
+}
+#vol-control{
+    margin-top: 18px;
+    right: 0;
+    position: absolute;
+    width: 100px;
+}
+
+#myprogressbar{
+    width: 60vw;
+}
+
+
+.icons{
+    margin:10px;
+}
+
+.songitem{
+    height:50px;
+    display: flex;
+    width: 100%;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songitem img{
+    width: 50px;
+    margin: 0 2px;
+}
+
+.songinfo{
+    position: absolute;
+    left: 2vw;
+    color:black ;
+}
+
+.ic{
+    height: 58px;
+    width: 58px;
+    border-radius: 30px;
+    border-color: black;
+}
+
+
+.container{
+    display: grid;
+    grid-column-gap: 150px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+  
+.songbanner{
+    padding: 20px;
+    text-align: center;
+}
